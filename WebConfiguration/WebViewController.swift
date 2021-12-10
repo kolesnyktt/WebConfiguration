@@ -21,7 +21,7 @@ class WebViewController: UIViewController {
         {
             loadView(url: url)
         }
-}
+    }
     
     func loadView(url: String) {
         let webConfiguration = WKWebViewConfiguration()
