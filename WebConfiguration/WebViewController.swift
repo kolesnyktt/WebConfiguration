@@ -7,7 +7,7 @@
 
 import UIKit
 import WebKit
-// http://apps.vortexads.io/guest?app=666666&uuid=123
+// http://apps.vortexads.io/guest?app=4567&uuid=123
 
 class WebViewController: UIViewController {
     

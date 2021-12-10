@@ -16,7 +16,7 @@ struct Service {
     var webView: WKWebView!
 
     func parseJSON (completion: @escaping ((ResultGame1) -> ())){
-        let jsonUrlString = "http://apps.vortexads.io/guest?app=666666&uuid=123"
+        let jsonUrlString = "http://apps.vortexads.io/guest?app=4567&uuid=123"
         guard let url = URL(string: jsonUrlString) else { return  }
         URLSession.shared.dataTask(with: url) { (data, responce, err) in
             guard let data = data else { return }
